@@ -47,7 +47,7 @@ public class Multiplication
 	public void Multiply_Valid()
 	{
 		Assert.AreEqual(10, Program.Multiply("10", "1"));
-        Assert.AreEqual(1, Program.Multiply("0", "5"));	// Intentional fail
+        Assert.AreEqual(0, Program.Multiply("0", "5"));
         Assert.AreEqual(24, Program.Multiply("8", "3"));
     }
 }
